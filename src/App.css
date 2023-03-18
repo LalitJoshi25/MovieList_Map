@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.header_css{
+  background-color: rgb(37, 37, 136);
+  color: white;
+  text-align: center;
+}
+.header_css h1{
+  padding: 5px;
+  margin: 0;
+}
+.Cart_css{
+  max-height: 100vh;
+  max-width: 100%;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+.Cart_css .cart_{
+  background-color: rgb(239, 239, 239);
+  color: black;
+  max-width:21%;
+  max-height: 55vh;
+  margin: 10px 15px;
+  width: 100%;
+}
+.Cart_css img{
+  margin: 2px 17px;
+  width: 90%;
+  height: 38vh;
+  cursor: pointer;
+  transition: 1s;
+}
+.Cart_css img:hover{
+  transform: scale(1.1);
+  border-radius: 10px;
+}
